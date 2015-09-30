@@ -13,6 +13,6 @@ def palindrome(pal):
     else:
       return palindrome(pal[1:len(pal)-1])
 
-pal = input("Enter a word! ")
+pal = raw_input("Enter a word! ")
 
 print(palindrome(pal))
